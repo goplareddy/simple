@@ -27,4 +27,9 @@ urlpatterns = [
     path('updation/',views.updation),
     path('get/',views.get),
     path('getbyid/',views.getbyid),
+    path('delete/',views.delete),
+    path('deleteperson/',views.delete_person),
+    path('profiledata/',views.profile_data),
+    path('update1/',views.update1),
+    path('updation1/',views.updation1),
 ]
